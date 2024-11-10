@@ -1,66 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Downloader Web App - README</title>
-    <style>
-        /* Basic Styling for the Readme page */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        h1, h2, h3 {
-            font-weight: bold;
-        }
-
-        .content {
-            margin: 2rem;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        code {
-            background-color: #f0f0f0;
-            padding: 0.2rem;
-            font-family: monospace;
-            border-radius: 4px;
-        }
-
-        .installation, .usage, .deployment, .license {
-            background-color: #fff;
-            padding: 1rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        pre {
-            background-color: #f0f0f0;
-            padding: 1rem;
-            border-radius: 4px;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-        }
-    </style>
-</head>
-<body>
-
     <header>
-        <h1>YouTube Downloader Web App - README</h1>
+        <h1>YouTube Downloader Web App</h1>
     </header>
 
     <div class="content">
@@ -166,6 +105,3 @@ your_project/
             <p>This project is licensed under the MIT License - see the <a href="LICENSE" target="_blank">LICENSE</a> file for details.</p>
         </section>
     </div>
-
-</body>
-</html>
