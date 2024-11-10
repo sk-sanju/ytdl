@@ -1,15 +1,33 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>Download YouTube Video</h1>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Download</button>
-    </form>
+    <!-- Blurred Background -->
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <header>
+        <img src="{% static 'images/logo.png' %}" alt="YouTube Downloader Logo" class="logo">
+    </header>
+    
+    <main class="container">
+        <h2>Download YouTube Video Instanly</h2>
+        <form method="post">
+            {% csrf_token %}
+            <label for="id_url">YouTube URL</label>
+            {{ form.url }}
+            <button type="submit">Download</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 YouTube Downloader | SK-Sanju</p>
+    </footer>
 </body>
 </html>
